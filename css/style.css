@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+  background-image: url("./../img/fondo2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#header {
+  width: 100%;
+  position: relative;
+  margin-bottom: 2rem;
+  z-index: 3rem;
+}
+#logo {
+  position: sticky;
+  top: 0.1rem;
+  left: 0.5rem;
+} 
+#aside {
+  margin-top: 0.1rem;
+  margin-left: 1rem;
+  width: 20%;
+  height: 40rem;
+  position: fixed;
+  border: 1px solid black;
+  border-radius: 13px;
+}
+#aside:hover {
+  width: 20.1%;
+  height: 40.2rem;
+  box-shadow: 10px 10px lightblue;
+}
+
+#section {
+  margin-left: 23%;
+  margin-bottom: 1.8rem;
+  position: relative;
+  top: 0.1rem;
+  min-height: 100vh;
+  width: 74%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 13px;
+  box-shadow: 10px 10px lightblue;
+}
+
+.aside-box {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 13%;
+  margin-left: 5%;
+  width: 90%;
+  height: 11rem;
+  border-radius: 13px;
+}
+.aside-box:hover {
+  background-color: rgba(173, 216, 230, 0.129);
+  border: 1px solid rgba(0, 0, 0, 0.446);
+}
+.aside-box img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 13px;
+}
+.peliculas {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.peliculas iframe{
+  border-radius: 10%;
+}
